@@ -15,27 +15,28 @@ const Login = (props) => {
     try {
       const res = await fetch("http://localhost:8080/user-api/login", {
         body: JSON.stringify(details),
-        method: 'POST',headers:{'Content-Type':'application/json '},
-        
+        method: "POST",
+        headers: { "Content-Type": "application/json " },
       });
       const response = await res.json();
       console.log({ response });
-      if(response && response.length > 0) {
-        localStorage.setItem('user', JSON.stringify(response[0]))
-        localStorage.setItem('userId', JSON.stringify(response[0].userId))
-        localStorage.setItem('userBookinglist', JSON.stringify(response[0].bookingList))
-        localStorage.setItem('role',response[0].role)
-        localStorage.setItem('email',response[0].email)
-        history.push('/');
-        
-      }
-      else{
+      if (response && response.length > 0) {
+        localStorage.setItem("user", JSON.stringify(response[0]));
+        localStorage.setItem("userId", JSON.stringify(response[0].userId));
+        localStorage.setItem(
+          "userBookinglist",
+          JSON.stringify(response[0].bookingList)
+        );
+        localStorage.setItem("role", response[0].role);
+        localStorage.setItem("email", response[0].email);
+        history.push("/");
+      } else {
         alert("Enter correct username and Password");
       }
     } catch (error) {
       console.error("error in login: ", error);
     }
-    
+
     // setIsSubmitted(true);
   };
 
@@ -81,11 +82,16 @@ const Login = (props) => {
           </div>
         </div>
         <div className={classes.buttoncont}>
-          <Button id="3" type="submit">Login</Button>
+          <Button id="3" type="submit">
+            Login
+          </Button>
         </div>
       </form>
       <p className={classes.lnk}>
-        Not Registered? <a id="4" onClick={gotoRegister}>Register Here</a>
+        Not Registered?{" "}
+        <a id="4" onClick={gotoRegister}>
+          Register Here
+        </a>
       </p>
     </div>
   );

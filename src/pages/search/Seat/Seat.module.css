@@ -1,0 +1,64 @@
+.seat{
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: meals-appear 1s ease-out forwards;
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 1px;
+    border-radius: 4px;
+    padding-bottom: 40px;
+
+}
+
+.color :hover{
+    cursor: pointer;
+}
+.perseat :hover{
+    cursor: pointer;
+}
+
+.perseat{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 2px 2px 2px 2px;
+    
+}
+.perseat:hover{
+    cursor: pointer;
+}
+
+
+.bookbtn{
+    margin-top: 10px;
+}
+
+.color{
+    width: 40px;
+    height: 40px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 2px 2px 2px 2px;
+
+}
+.color:hover{
+    cursor: pointer;
+}
+label{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+

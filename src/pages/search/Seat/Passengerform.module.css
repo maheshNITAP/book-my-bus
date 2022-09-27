@@ -1,0 +1,68 @@
+.all{
+    font-family: sans-serif;
+}
+
+.subbox{
+    margin: 10px 10px 10px 25px;
+}
+
+.box{
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 520px;
+    height: 160px;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 4px;
+    color: black;
+    border: 1px solid #c6dada;
+    box-shadow: 0 2px 4px #effefe;
+    
+}
+.bottom{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.input {
+    margin: 2px;
+    width: 90%; 
+  }
+
+  .inp{
+    margin: 2px;
+    margin-top: 4px;
+  }
+  
+  .evryinp{
+    margin: 4px 4px 4px 4px;
+  }
+  .msg{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 36px;
+  }
+
+  
+  .inputField {
+    height: 60px;
+    width: 14rem;
+  
+    border-radius: 8px;
+   border: none; 
+    
+  }
+ 
+  .lbl{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .ttl{
+    text-align: center;
+    font-size:larger;
+    margin: 10px 0px 10px 0px;
+
+  }
+  .bottm{
+    margin: 0px 0px 25mm 0px;
+  }

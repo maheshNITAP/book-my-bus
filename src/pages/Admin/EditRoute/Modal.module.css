@@ -1,0 +1,64 @@
+.model{
+  font-family: sans-serif;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 340px;
+  width: 900px;
+  border: 1px solid #ccc;
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 8px;
+  outline: none;
+  padding: 20px;
+}
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.title{
+  text-align: center;
+  font-weight: bolder;
+  size: 36px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+/* .lbl{
+  font-weight: bold;
+}
+.inputField {
+  
+  margin-top: 5px;
+  width: 15rem;
+  border-radius: 2px;
+  margin-bottom: 1px;
+} */
+
+.inputField {
+  height: 70px;
+  margin-top: 5px;
+  width: 15rem;
+  margin-bottom: 7px;
+  
+}
+.btn{
+  margin-top: 15px;
+ 
+  margin-right: 35px;
+  
+}
+.cncl{
+  position: relative;
+  float: right;
+
+}
+.title{
+  font-size: 20px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}

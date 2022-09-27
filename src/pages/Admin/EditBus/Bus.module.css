@@ -1,0 +1,82 @@
+.rowone{
+  height: 40px;
+  border-radius: 4px;
+  text-align: center;
+}
+.colzero{
+  width: 10%;
+  float: left;
+  height: 40px;
+  padding: 0px 15px 0px 5px;
+  margin-left: 4px;
+  margin-right: 2px;
+  margin-top: 10px;
+  
+}
+
+.colone{
+  width: 13%;
+  float: left;
+  height: 40px;
+  padding: 0px 15px 0px 5px;
+  margin-left: 4px;
+  margin-right: 2px;
+  margin-top: 10px;
+
+}
+
+.coltwo{
+  width: 13%;
+  float: left;
+  height: 40px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 10px;
+  
+}
+.colthree{
+  width: 11%;
+  float: left;
+  height: 40px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 10px;
+  
+}
+.colfoure{
+  width: 11%;
+  float: left;
+  height: 40px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 10px;
+ 
+}
+.colfive{
+  width: 11%;
+  float: left;
+  height: 40px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.colsix{
+  width: 11%;
+  float: left;
+  height: 40px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.colseven{
+  width: 11%;
+  float: left;
+  height: 40px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 10px;
+  font-weight: bold;
+}

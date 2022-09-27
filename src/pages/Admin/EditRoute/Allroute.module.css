@@ -1,0 +1,123 @@
+.routes ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .rowone{
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .colzero{
+    width: 8%;
+    float: left;
+    height: 40px;
+    padding: 0px 15px 0px 5px;
+    margin-left: 4px;
+    margin-right: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .colone{
+    width: 8%;
+    float: left;
+    height: 40px;
+    padding: 0px 15px 0px 5px;
+    margin-left: 4px;
+    margin-right: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .coltwo{
+    width: 9%;
+    float: left;
+    height: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .colthree{
+    width: 8%;
+    float: left;
+    height: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .colfoure{
+    width: 8%;
+    float: left;
+    height: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .colfive{
+    width: 8%;
+    float: left;
+    height: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .colsix{
+    width: 8%;
+    float: left;
+    height: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .colseven{
+    width: 8%;
+    float: left;
+    height: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .coleight{
+    width: 8%;
+    float: left;
+    height: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .colnine{
+    width: 8%;
+    float: left;
+    height: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .colten{
+    width: 8%;
+    float: left;
+    height: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .colele{
+    width: 8%;
+    float: left;
+    height: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
